@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'netflix' );
+define( 'DB_NAME', 'diegjimenezs_netflix' );
 
 /** Database username */
-define( 'DB_USER', 'netflix' );
+define( 'DB_USER', 'diegjimenezs_netflix' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'netflix' );
+define( 'DB_PASSWORD', 'diegjimenezs_netflix' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
