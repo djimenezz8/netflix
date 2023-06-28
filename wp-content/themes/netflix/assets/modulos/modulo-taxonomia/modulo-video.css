@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    margin-top: 30px;
+}
+
+.imagen-principal {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 3rem;
+    color: #fff;
+    background-position: center;
+}
+.single .imagen-principal{
+    background-position: top;
+}
+
+.boton{
+    background-color: #424141;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.boton:hover{
+    background-color: white;
+    color: #424141;
+}
+.botones{
+    display: flex;
+}
+a {
+    color: white;
+    cursor: pointer;
+}
+
+a:visited {
+    color: white;
+}
+
+.card {
+    height: 200px;
+}
+
+.card:hover {
+    border: 2px;
+    border-color: white;
+}
+
+.card-img-overlay .boton-portada {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.card-img-overlay .boton-portada:hover {
+    opacity: 1;
+}
+
+.custom-logo {
+    height: 70px;
+    width: 148px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(101, 101, 101);
+}
+.author{
+    color:  rgb(101, 101, 101);
+}
+.bg-netflix{
+    background-color: #121212;
+}
+.list-group-item .item-list .card{
+
+    height: 100%;
+}
+
+
+@media (max-width: 576px) {
+    .card{
+        height: 150px;
+    }
+  }
+  
