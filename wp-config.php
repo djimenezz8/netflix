@@ -26,7 +26,7 @@ define( 'DB_NAME', 'diegjimenezs_netflix' );
 define( 'DB_USER', 'diegjimenezs_netflix' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'diegjimenezs_netflix' );
+define( 'DB_PASSWORD', 'Cadin2418!' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
